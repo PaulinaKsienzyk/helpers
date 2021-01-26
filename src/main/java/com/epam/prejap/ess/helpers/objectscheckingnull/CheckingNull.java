@@ -1,4 +1,4 @@
-package com.epam.prejap.ess.helpers.objectsCheckingNull;
+package com.epam.prejap.ess.helpers.objectscheckingnull;
 
 import java.util.List;
 import java.util.Objects;

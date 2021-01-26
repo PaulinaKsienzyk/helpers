@@ -1,4 +1,4 @@
-package com.epam.prejap.ess.helpers.objectsCheckingNull;
+package com.epam.prejap.ess.helpers.objectscheckingnull;
 
 import org.testng.annotations.Test;
 

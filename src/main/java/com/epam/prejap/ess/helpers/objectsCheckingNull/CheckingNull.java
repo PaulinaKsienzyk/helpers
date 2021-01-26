@@ -9,7 +9,7 @@ import java.util.stream.Stream;
  *
  * @author Paulina Ksienżyk
  */
-public class CheckingNull {
+class CheckingNull {
 
     private final static String NULL_FRUIT_MESSAGE = "Fruit cannot be null!";
     final static List<Fruit> fruitBasket = List.of(new Fruit("melon"),
@@ -50,7 +50,7 @@ public class CheckingNull {
      * @throws NullPointerException if fruit is null.
      * @see Fruit
      */
-    public static void addFruit(Fruit fruit) {
+    static void addFruit(Fruit fruit) {
         Objects.requireNonNull(fruit, NULL_FRUIT_MESSAGE);
         fruitBasket.add(fruit);
     }
@@ -62,7 +62,7 @@ public class CheckingNull {
      *
      * @throws NullPointerException if both arguments are nulls.
      */
-    public static class Fruit {
+    static class Fruit {
         private final String name;
 
         public Fruit(String name) {

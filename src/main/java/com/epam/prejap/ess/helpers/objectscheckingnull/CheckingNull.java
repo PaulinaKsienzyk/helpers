@@ -44,7 +44,8 @@ class CheckingNull {
     /**
      * Objects.RequireNonNull() allow us to validate the parameter passed by the method or constructor.
      * If the passed parameter is null, a NullPointerException is thrown.
-     * If we want to customize our exception we can use overloaded method which takes String or Supplier<String>.
+     * If we want to customize our NullPointerException message we can use overloaded method which takes String
+     * or Supplier<String>.
      *
      * @param fruit
      * @throws NullPointerException if fruit is null.
